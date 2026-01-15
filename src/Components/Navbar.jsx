@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router";
 //
 const Navbar = () => {
   return (
-<div className="navbar  bg-[#000000] shadow-sm">
+<div className="navbar  bg-[#000000de] shadow-sm">
   <div className="navbar-start ">
  
  <div className=" ml-4">
@@ -17,7 +18,9 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
+    <Link to="/auth/login">
     <a className="btn bg-[#FCBC45]">Login</a>
+    </Link>
   </div>
 </div>
   );
