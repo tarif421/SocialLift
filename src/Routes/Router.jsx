@@ -4,6 +4,7 @@ import Home from "../Components/Home"
 import AuthLayout from "../Layouts/AuthLayout";
 import Login from "../Components/Login"
 import Register from "../Components/Register";
+import Banner from "../Components/HeroSection/banner";
 
 
 
@@ -14,7 +15,7 @@ export const router = createBrowserRouter([
     element: <RootLayout/>,
     children: [{
         path: "/",
-        element: <Home/>
+        element: <Banner/>
     }]
   },
    {
