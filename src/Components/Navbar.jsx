@@ -1,4 +1,5 @@
 import React from "react";
+import { BsUnity } from "react-icons/bs";
 import { Link, NavLink } from "react-router";
 //
 const Navbar = () => {
@@ -9,11 +10,16 @@ const Navbar = () => {
   return (
 <div className="navbar  bg-[#000000de] shadow-sm">
   <div className="navbar-start ">
- 
- <div className=" ml-4">
-     <a className=" text-2xl text-[#f3e3e3]">Social<span className="text-[#caa767]">Lift</span></a>
+ <div className="flex ml-4">
+  <div className="mt-2 " >
+    <span className="text-[#f3e3e3] text-4xl "> <BsUnity /> </span>
+  </div>
+ <div className=" ml-2">
+     <a className=" text-2xl font-bold text-[#f3e3e3]">Social<span className="text-[#caa767]">Lift</span></a>
     <p className="text-[#f3e3e3] text-[10px]">Make World Happier</p>
  </div>
+ </div>
+
   </div>
   <div className="navbar-center text-[#F0F0F0] ">
     <ul className="menu menu-horizontal px-1">
