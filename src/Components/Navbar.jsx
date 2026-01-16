@@ -30,8 +30,35 @@ const Navbar = () => {
     <Link to="/auth/login">
     <a className="btn bg-[#FCBC45]">Login</a>
     </Link>
-  </div>
-</div>
+    {/* user */}
+
+    <div className="dropdown dropdown-end">
+          <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+            <div className="w-10 rounded-full bg-[#caa767] flex justify-center items-center text-white font-bold">
+              U
+            </div>
+          </label>
+          <ul
+            tabIndex={0}
+            className="dropdown-content menu p-2 shadow bg-[#1a1a1a] rounded-box w-52 text-[#f0f0f0]"
+          >
+            <li>
+              <a>Create Event</a>
+            </li>
+            <li>
+              <a>Manage Event</a>
+            </li>
+            <li>
+              <a>Join Event</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+  
+
+
   );
 };
 
