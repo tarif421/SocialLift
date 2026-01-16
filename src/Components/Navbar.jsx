@@ -1,7 +1,11 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 //
 const Navbar = () => {
+
+  const links = <>
+  <NavLink to="/">Home</NavLink>
+  </>
   return (
 <div className="navbar  bg-[#000000de] shadow-sm">
   <div className="navbar-start ">
@@ -11,10 +15,9 @@ const Navbar = () => {
     <p className="text-[#f3e3e3] text-[10px]">Make World Happier</p>
  </div>
   </div>
-  <div className="navbar-center  ">
+  <div className="navbar-center text-[#F0F0F0] ">
     <ul className="menu menu-horizontal px-1">
-   
-      <li className="text-[#F0F0F0]"><a>Upcoming Events</a></li>
+{links}
     </ul>
   </div>
   <div className="navbar-end">
