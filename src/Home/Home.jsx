@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../Components/HeroSection/banner';
 import Feature from '../Components/MainSection/Fetaure';
 import Gallery from '../Components/MainSection/Gallery';
+import Newsletter from '../Components/MainSection/Newsletter';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
            
             <Feature/>
             <Gallery/>
+            <Newsletter/>
         </div>
     );
 };

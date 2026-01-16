@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 
 const Banner = () => {
     return (
-        <div className='bg-[#caa767] flex items-center p-7  '>
+        <div className='bg-[#caa767] flex items-center p-7  mx-20 '>
             {/* left side */}
                <motion.div
           className="mt-10"
@@ -14,7 +14,7 @@ const Banner = () => {
           viewport={{ once: true }}
         >
               <div className='flex-1 ml-15 '>
-             <h1 className=' text-5xl font-bold text-[#000000de]
+             <h1 className=' text-3xl font-bold text-[#000000de]
              '>Make a Difference in <br /> Your Community</h1>
              <p className='text-sm'>
                 Join local social development events, create meaningful impact, and connect with changemakers in your area.

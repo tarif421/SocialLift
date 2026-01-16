@@ -33,8 +33,8 @@ const Gallery = () => {
           </div>
         </div>
         <div className="relative w-full max-w-md mx-auto">
-          <img
-            className="https://www.vintagetreecare.com/wp-content/uploads/2023/06/planting-tree.jpg"
+          <img className=" w-full h-full"
+            src="https://as2.ftcdn.net/v2/jpg/05/83/74/15/1000_F_583741578_tHezxJYYUAYkVZ2sQEGI6NbPbq4GC7Ff.jpg"
             alt=""
           />
 
@@ -47,8 +47,8 @@ const Gallery = () => {
         </div>
         <div className="relative w-full max-w-md mx-auto">
           <img
-            className="w-full h-auto"
-            src="https://as2.ftcdn.net/v2/jpg/04/08/90/13/1000_F_408901359_rNhD6OstfkI2h4cqpzvdDgAqxQMr0Qsi.jpg"
+            className="w-full h-full"
+            src="https://t3.ftcdn.net/jpg/11/44/40/92/240_F_1144409277_oH9FS8LM2aQwKfTHQybuqhI86xFYtMtw.jpg"
             alt=""
           />
 
@@ -61,8 +61,8 @@ const Gallery = () => {
         </div>
         <div className="relative w-full max-w-md mx-auto">
           <img
-            className="w-full h-auto"
-            src="https://as2.ftcdn.net/v2/jpg/04/08/90/13/1000_F_408901359_rNhD6OstfkI2h4cqpzvdDgAqxQMr0Qsi.jpg"
+            className="w-full h-full"
+            src="https://t4.ftcdn.net/jpg/05/24/53/13/240_F_524531301_jZc92B4VLfsdV2hMhRuTYjWo10Sy6NkC.jpg"
             alt=""
           />
 
@@ -75,8 +75,8 @@ const Gallery = () => {
         </div>
         <div className="relative w-full max-w-md mx-auto">
           <img
-            className="w-full h-auto"
-            src="https://as2.ftcdn.net/v2/jpg/04/08/90/13/1000_F_408901359_rNhD6OstfkI2h4cqpzvdDgAqxQMr0Qsi.jpg"
+            className="w-full h-full"
+            src="https://t4.ftcdn.net/jpg/17/82/70/67/240_F_1782706718_e824iiO7RItl4FlhAacagROGpeenCK89.jpg"
             alt=""
           />
 
@@ -89,8 +89,8 @@ const Gallery = () => {
         </div>
         <div className="relative w-full max-w-md mx-auto">
           <img
-            className="w-full h-auto"
-            src="https://as2.ftcdn.net/v2/jpg/04/08/90/13/1000_F_408901359_rNhD6OstfkI2h4cqpzvdDgAqxQMr0Qsi.jpg"
+            className="w-full h-full"
+            src="https://t4.ftcdn.net/jpg/06/63/78/87/240_F_663788712_GDG3oAcNecDgpvYIrtvghTnZTtWYqKtO.jpg"
             alt=""
           />
 
