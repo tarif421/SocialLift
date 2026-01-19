@@ -69,7 +69,7 @@ const Login = () => {
     });
 };
 
-  // console.log(email)
+
   return (
     <>
       <div className=" flex justify-center min-h-screen  items-center ">
@@ -87,8 +87,7 @@ const Login = () => {
                 placeholder="Email"
                 name="email"
                 ref={emailRef}
-                // value={email}
-                // onChange={(e) => setEmail(e.target.value)}
+              
                 autoComplete="new-email"
                 required
               />
@@ -164,7 +163,7 @@ const Login = () => {
             Login with Google
           </button>
           <p className="font-xs text-center pt-5">
-            Don't have and account?{" "}
+            Don't have an account?{" "}
             <Link
               to="/auth/register"
               className="text-blue-500 underline text-media "

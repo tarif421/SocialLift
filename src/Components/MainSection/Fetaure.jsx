@@ -10,14 +10,14 @@ const Feature = () => {
         {/* headline */}
          <motion.div
           className="mt-20"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 70 }}
+          whileInView={{ opacity: 1, y: -30 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
               <div className=" mt-20">
         <div className="flex items-center justify-center gap-4">
-          <div className="flex-grow h-[1px] bg-[#a1490f]"></div>
+          <div className="flex-grow h-[1px] mx-w-[]  bg-[#a1490f]"></div>
           <h1 className="text-4xl text-[#a1490f] font-bold whitespace-nowrap ">
             Features
           </h1>
@@ -37,8 +37,8 @@ const Feature = () => {
         {/* card 1 */}
    <motion.div
           className="mt-10"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 70 }}
+          whileInView={{ opacity: 1, y: -30 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
@@ -59,8 +59,8 @@ const Feature = () => {
      {/* card 2 */}
         <motion.div
           className="mt-10"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 70 }}
+          whileInView={{ opacity: 1, y: -30 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
@@ -80,8 +80,8 @@ const Feature = () => {
         {/* card 3 */}
          <motion.div
           className="mt-10"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 70 }}
+          whileInView={{ opacity: 1, y: -30 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >

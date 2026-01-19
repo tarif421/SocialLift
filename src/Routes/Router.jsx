@@ -4,6 +4,8 @@ import Home from "../Home/Home"
 import AuthLayout from "../Layouts/AuthLayout";
 import Login from "../Components/Login"
 import Register from "../Components/Register";
+import UpcomingEvents from "../AboutEvents/UpcomingEvents";
+import CreateEvent from "../AboutEvents/CreateEvent";
 
 
 
@@ -16,6 +18,14 @@ export const router = createBrowserRouter([
     children: [{
         path: "/",
         element:<Home/>
+    },
+    {
+      path:"/create",
+      element: <CreateEvent/>
+    },
+    {
+      path: "/upcoming",
+      element: <UpcomingEvents/>
     }
 
   ]

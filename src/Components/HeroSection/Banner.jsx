@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import CountUp from "react-countup";
+import { Link } from 'react-router';
 
 const Banner = () => {
     return (
@@ -8,9 +9,9 @@ const Banner = () => {
             {/* left side */}
                <motion.div
           className="mt-10"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{ opacity: 0, y: 70 }}
+          whileInView={{ opacity: 1, y: -30 }}
+          transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
               <div className='flex-1 ml-15 '>
@@ -21,7 +22,9 @@ const Banner = () => {
              </p>
              <div className='mt-4 space-x-4 '>
                 <button className='btn text-[#a86d00] border-[#a86d00] border-[3px] rounded-xl'>Browse Events</button>
+                <Link to="/create">
                 <button className='btn text-[#a86d00] border-[#a86d00] border-[3px] rounded-xl'>Create Event</button>
+                </Link>
              </div>
              {/* / */}
              <div className='flex mt-4 space-x-5' >
@@ -41,10 +44,20 @@ const Banner = () => {
         
             {/* right side */}
             <div className='flex-1 flex justify-center'>
+
+                      <motion.div
+          className="mt-10"
+          initial={{ opacity: 0, y: 70 }}
+          whileInView={{ opacity: 1, y: -30 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+        >
 <div>
     <img className="max-w-[600px] h-[400px] p-4  ml-2 rounded-4xl" src="https://t4.ftcdn.net/jpg/10/20/75/49/240_F_1020754907_cD9j4u6MWYmoCUrAGlZjRsu3ss7G3h5T.jpg" alt="" />
 </div>
+</motion.div>
             </div>
+            
         </div>
     );
 };
